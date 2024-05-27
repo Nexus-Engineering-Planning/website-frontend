@@ -62,7 +62,7 @@ const Index = () => {
 
 
             <section id="hero-1" class="bg--scroll hero-section">
-				<div class="container">	
+				<div class="container" style={{ height: 500, alignItems: 'center', justifyContent: 'center' }}>	
 					<div class="row d-flex align-items-center">
 
 						<div class="col-md-6">
@@ -72,14 +72,14 @@ const Index = () => {
 
 								<p class="p-xl">Nexus Engineering & Planning is a premier consultancy firm dedicated to delivering innovative engineering and planning solutions that drive sustainable development and urban transformation. 
 								</p>
-								<a href="#banner-3" class="btn r-04 btn--theme hover--tra-white">Get started for free</a>
+								<Link to="/register" class="btn r-04 btn--theme hover--tra-white">Get started for free</Link>
 
 							</div>
 						</div>
 
 						<div class="col-md-6">	
 							<div class="hero-1-img wow fadeInLeft">	
-								<img class="img-fluid" src="images/hero-1-img.png" alt="hero-image" />					
+								<img style={{ borderRadius: 30 }} class="img-fluid" src="images/new1.jpeg" alt="hero-image" />					
 							</div>
 						</div>	
 						
@@ -111,10 +111,7 @@ const Index = () => {
 		 						<div class="fbox-6 fb-1 wow fadeInUp">
 									<div class="fbox-ico ico-55">
 										<div class="shape-ico color--theme">
-											<span class="flaticon-graphics"></span>
-											<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-											</svg>
+											<span class="bx bxs-plane-alt" style={{ fontSize: 35 }}></span>
 										</div>
 									</div>
 									<div class="fbox-txt">
@@ -128,12 +125,7 @@ const Index = () => {
 		 						<div class="fbox-6 fb-2 wow fadeInUp">
 									<div class="fbox-ico ico-55">
 										<div class="shape-ico color--theme">
-
-											<span class="flaticon-idea"></span>
-											<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-											</svg>
-
+											<span class="bx bxs-brightness" style={{ fontSize: 35 }}></span>
 										</div>
 									</div>
 									<div class="fbox-txt">
@@ -146,12 +138,8 @@ const Index = () => {
 		 					<div class="col">
 		 						<div class="fbox-6 fb-3 wow fadeInUp">
 									<div class="fbox-ico ico-55">
-										<div class="shape-ico color--theme">
-											<span class="flaticon-graphic"></span>
-											<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-											</svg>
-
+									<div class="shape-ico color--theme">
+											<span class="bx bxs-chalkboard" style={{ fontSize: 35 }}></span>
 										</div>
 									</div>
 									<div class="fbox-txt">
@@ -166,14 +154,8 @@ const Index = () => {
 		 						<div class="fbox-6 fb-4 wow fadeInUp">
 
 									<div class="fbox-ico ico-55">
-										<div class="shape-ico color--theme">
-
-											<span class="flaticon-search-engine-1"></span>
-
-											<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-											  <path d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-											</svg>
-
+									<div class="shape-ico color--theme">
+											<span class="bx bxl-product-hunt" style={{ fontSize: 35 }}></span>
 										</div>
 									</div>
 
