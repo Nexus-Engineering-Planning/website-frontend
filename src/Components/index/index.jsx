@@ -42,12 +42,10 @@ const Index = () => {
 						           		</ul>
 								    </li>
 
-							    	<li class="nl-simple" aria-haspopup="true"><a href="pricing-1.html" class="h-link">Pricing</a></li>
-
-							    	<li class="nl-simple" aria-haspopup="true"><a href="#faqs-3" class="h-link">FAQs</a></li>
+							    	<li class="nl-simple" aria-haspopup="true"><Link to="/faq" class="h-link">FAQs</Link></li>
 
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="signup-2.html" class="btn r-04 btn--theme hover--tra-white last-link">Get Started</a>
+										<Link to="/register"  class="btn r-04 btn--theme hover--tra-white last-link">Get Started</Link>
 								    </li> 
 
 

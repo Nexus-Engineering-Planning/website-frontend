@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return ( 
@@ -21,20 +22,19 @@ const Login = () => {
 										<div class="register-page-txt color--white">
 
 											
-											<img class="img-fluid" src="images/logo-white.png" alt="logo-image" />		
+										<span style={{ fontWeight: 'bold', fontSize: 25, color: 'white' }}>NE&P</span>	
 
 											
-											<h2 class="s-42 w-700">Welcome</h2>
-											<h2 class="s-42 w-700">back to Martex</h2>
+											<h2 class="s-42 w-700" style={{ marginTop: 50 }}>Welcome</h2>
+											<h2 class="s-42 w-700">back to Nexus Engineering & Planning</h2>
 
 											
-											<p class="p-md mt-25">Integer congue sagittis and velna augue egestas magna 
-											   suscipit purus aliquam
+											<p class="p-md mt-25">Nexus Engineering & Planning is a premier consultancy firm dedicated to delivering innovative engineering and planning solutions that drive sustainable development and urban transformation.
 											</p>
 
 											
 											<div class="register-page-copyright">
-												<p class="p-sm">&copy; 2023 Martex. <span>All Rights Reserved</span></p>
+												<p class="p-sm">&copy; 2024 NE&P. <span>All Rights Reserved</span></p>
 											</div>
 
 										</div>
@@ -72,7 +72,7 @@ const Login = () => {
 												
 												<div class="col-md-12">
 													<div class="reset-password-link">
-														<p class="p-sm"><a href="reset-password.html" class="color--theme">Forgot your password?</a></p>
+														<p class="p-sm"><Link to="#" class="color--theme">Forgot your password?</Link></p>
 													</div>
 												</div>
 
@@ -83,7 +83,7 @@ const Login = () => {
 												
 												<div class="col-md-12">
 													<p class="create-account text-center">
-														Don't have an account? <a href="signup-2.html" class="color--theme">Sign up</a>
+														Don't have an account? <Link to="/register" class="color--theme">Sign up</Link>
 													</p>
 												</div>  
 

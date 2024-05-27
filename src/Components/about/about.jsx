@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
+
 
 const About = () => {
     return ( 
@@ -20,60 +22,42 @@ const About = () => {
 
 
 	    					<div class="desktoplogo">
-	    						<a href="demo-1.html" class="logo-black">
-	    							<img class="light-theme-img" src="images/logo-blue.png" alt="logo" />
-	    							<img class="dark-theme-img" src="images/logo-blue-white.png" alt="logo" />
-	    						</a>
+								<Link to="/" class="logo-black">
+									<span style={{ color: 'black', fontWeight: 'bold', fontSize: 35 }}>NE&P</span>
+								</Link>
 	    					</div>
 	    					
 
 	    					
 	    					<div class="desktoplogo">
-	    						<a href="demo-1.html" class="logo-white"><img src="images/logo-blue-white.png" alt="logo" /></a>
+								<Link to="/" class="logo-white">
+									<span style={{ color: 'black', fontWeight: 'bold', fontSize: 35 }}>NE&P</span>
+								</Link>
 	    					</div>
 
 
 	    					
-	      					<nav class="wsmenu clearfix">
+							<nav class="wsmenu clearfix">
 	        					<ul class="wsmenu-list nav-theme">
 
-
-	        						
-						          	<li aria-haspopup="true"><a href="#" class="h-link">Company <span class="wsarrow"></span></a>
+						          	<li aria-haspopup="true"><Link to="/about" class="h-link">About</Link></li>
+							    	<li class="nl-simple" aria-haspopup="true"><Link to="/contact" class="h-link">Contact Us</Link></li>
+									<li aria-haspopup="true"><a href="#" class="h-link">Data & Dashboards <span class="wsarrow"></span></a>
 	            						<ul class="sub-menu">
-	            							<li aria-haspopup="true"><a href="about.html">About Us</a></li>
-	            							<li aria-haspopup="true"><a href="careers.html">Careers <span class="sm-info">4</span></a></li>
-	            							<li aria-haspopup="true"><a href="reviews.html">Customers</a></li>
-	            							<li aria-haspopup="true"><a href="blog-listing.html">Our Blog</a></li>
-	            							<li aria-haspopup="true"><a href="contacts.html">Contact Us</a></li>	
+	            							<li aria-haspopup="true"><Link to="/">Free Dashboard</Link></li>
+	            							<li aria-haspopup="true"><Link to="/login">User Sign in</Link></li>
 						           		</ul>
 								    </li>
 
-								    
-							    	<li class="nl-simple" aria-haspopup="true"><a href="projects.html" class="h-link">Case Studies</a></li>
+							    	<li class="nl-simple" aria-haspopup="true"><Link to="/faq" class="h-link">FAQs</Link></li>
 
-
-								    
-							    	<li class="nl-simple" aria-haspopup="true"><a href="pricing-1.html" class="h-link">Pricing</a></li>
-
-
-								    
-							    	<li class="nl-simple" aria-haspopup="true"><a href="faqs.html" class="h-link">FAQs</a></li>
-
-
-							    	<li class="nl-simple reg-fst-link mobile-last-link" aria-haspopup="true">
-							    		<a href="login-2.html" class="h-link">Sign In</a>
-							    	</li>
-
-
-								    
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="signup-2.html" class="btn r-04 btn--theme hover--theme last-link">Get Started</a>
+										<Link to="/register"  class="btn r-04 btn--theme hover--tra-white last-link">Get Started</Link>
 								    </li> 
 
 
 	        					</ul>
-	        				</nav>	
+	        				</nav>
 
 
 	    				</div>
@@ -93,10 +77,8 @@ const About = () => {
                             <h2 class="s-52 w-700 mb-30">We provide solutions for your creative ideas</h2>
 
                                 
-                            <p class="mb-0">An enim nullam tempor sapien gravida donec pretium ipsum porta justo 
-                            integer and purus velna vitae auctor integer undo congue diam purus pretium and ligula 
-                            tempor primis libero at tempus, blandit and cursus varius magnis at sapien egestas 
-                            purus vitae purus an ipsum
+                            <p class="mb-0">Nexus Engineering & Planning is a premier consultancy firm dedicated to delivering innovative engineering and planning solutions that drive sustainable development and urban transformation. Established with a commitment to excellence, our multidisciplinary team of experts brings together extensive experience and cutting-edge expertise to address the most complex challenges in the built environment.
+
                             </p>
 
                         </div>
@@ -314,547 +296,8 @@ const About = () => {
             </div>		
             </div>	
 
-            <section class="bg--04 bg--fixed py-100 ct-01 content-section division">
-            <div class="container">
-                <div class="row d-flex align-items-center">
-
-
-                    <div class="col-md-6 order-last order-md-2">
-                        <div class="txt-block left-column wow fadeInRight">
-
-                            
-                            <span class="section-id">Co-founder at Martex</span>
-
-                        
-                            <h2 class="s-50 w-700">Henry Adams</h2>
-
-                                
-                            <p class="p-lg">&quot;Sodales tempor sapien diam purus ipsum quaerat and volute fusce 
-                            a congue laoreet turpis neque diam auctor turpis vitae dolor magna luctus placerat 
-                            neque ipsum fusce cursus ligula cursus purus vitae purus and ipsum suscipit. Nemo 
-                            ipsam cubilia donec turpis undo egestas ipsum a purus sapien ultrice aliquam lacus 
-                            and quaerat an ipsum augue turpis sapien cursus congue augue&quot;
-                            </p>
-                            
-                        </div>
-                    </div>	
-
-
-                    
-                    <div class="col-md-6 order-first order-md-2">
-                        <div class="img-block j-img video-preview right-column wow fadeInLeft">
-
-                            <a class="video-popup2" href="https://www.youtube.com/embed/7e90gBu4pas">				
-                                <div class="video-btn video-btn-xl bg--theme">	
-                                    <div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-                                </div>
-                            </a>
-                            <img class="img-fluid r-20" src="images/img-17.jpg" alt="video-preview" />
-                        </div>
-                    </div>
-
-
-                </div>   
-            </div>	 
-            </section>	
-
-            <section id="features-11" class="py-100 features-section division">
-            <div class="container">
-
-
-            
-                <div class="row justify-content-center">	
-                    <div class="col-md-10 col-lg-9">
-                        <div class="section-title mb-70">
-
-                        
-                            <h2 class="s-50 w-700">We make your business gain more revenue at a glance</h2>	
-
-                                
-                            <p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
-                                
-                        </div>	
-                    </div>
-                </div>
-
-                <div class="fbox-wrapper">
-                    <div class="row row-cols-1 row-cols-md-2 rows-3">
-
-
-                        
-                        <div class="col">
-                            <div class="fbox-11 fb-1 wow fadeInUp">
-
-                                
-                                <div class="fbox-ico-wrap">
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico">
-
-                                            
-                                            <span class="flaticon-graphics color--theme"></span>
-
-                                            
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#f4f9fc" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="fbox-txt">
-                                    <h6 class="s-22 w-700">Market Research</h6>
-                                    <p>Porta semper lacus cursus feugiat primis ultrice ligula risus ociis auctor and
-                                        tempus feugiat impedit felis cursus auctor augue mauris blandit ipsum
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        
-                        <div class="col">
-                            <div class="fbox-11 fb-2 wow fadeInUp">
-
-                                
-                                <div class="fbox-ico-wrap">
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico">
-
-                                            
-                                            <span class="flaticon-idea color--theme"></span>
-
-                                            
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#f4f9fc" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="fbox-txt">
-                                    <h6 class="s-22 w-700">User Experience</h6>
-                                    <p>Porta semper lacus cursus feugiat primis ultrice ligula risus ociis auctor and
-                                        tempus feugiat impedit felis cursus auctor augue mauris blandit ipsum
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>	
-
-
-                        
-                        <div class="col">
-                            <div class="fbox-11 fb-3 wow fadeInUp">
-
-                                
-                                <div class="fbox-ico-wrap">
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico">
-
-                                            
-                                            <span class="flaticon-graphic color--theme"></span>
-
-                                            
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#f4f9fc" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="fbox-txt">
-                                    <h6 class="s-22 w-700">Digital Marketing</h6>
-                                    <p>Porta semper lacus cursus feugiat primis ultrice ligula risus ociis auctor and
-                                        tempus feugiat impedit felis cursus auctor augue mauris blandit ipsum
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>	
-
-
-                        
-                        <div class="col">
-                            <div class="fbox-11 fb-4 wow fadeInUp">
-
-                                
-                                <div class="fbox-ico-wrap">
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico">
-
-                                            
-                                            <span class="flaticon-wireframe color--theme"></span>
-
-                                            
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#f4f9fc" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="fbox-txt">
-                                    <h6 class="s-22 w-700">Web Development</h6>
-                                    <p>Porta semper lacus cursus feugiat primis ultrice ligula risus ociis auctor and
-                                        tempus feugiat impedit felis cursus auctor augue mauris blandit ipsum
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>	
-
-
-                        
-                        <div class="col">
-                            <div class="fbox-11 fb-5 wow fadeInUp">
-
-                                
-                                <div class="fbox-ico-wrap">
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico">
-
-                                            
-                                            <span class="flaticon-trophy color--theme"></span>
-
-                                            
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#f4f9fc" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="fbox-txt">
-                                    <h6 class="s-22 w-700">Brand Design Identity</h6>
-                                    <p>Porta semper lacus cursus feugiat primis ultrice ligula risus ociis auctor and
-                                        tempus feugiat impedit felis cursus auctor augue mauris blandit ipsum
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>	
-
-
-                        
-                        <div class="col">
-                            <div class="fbox-11 fb-6 wow fadeInUp">
-
-                                
-                                <div class="fbox-ico-wrap">
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico">
-
-                                            
-                                            <span class="flaticon-search-engine-1 color--theme"></span>
-
-                                            
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#f4f9fc" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="fbox-txt">
-                                    <h6 class="s-22 w-700">SEO & SMM Services</h6>
-                                    <p>Porta semper lacus cursus feugiat primis ultrice ligula risus ociis auctor and
-                                        tempus feugiat impedit felis cursus auctor augue mauris blandit ipsum
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>	
-
-
-                    </div>   
-                </div>	
-
-
-            </div>   
-            </section>	
-
-
-
 
             <hr class="divider" />
-
-
-
-            <div id="brands-1" class="py-80 brands-section">
-            <div class="container">	
-
-
-                <div class="row justify-content-center">	
-                    <div class="col-md-10 col-lg-9">
-                        <div class="brands-title mb-50">
-                            <h5 class="s-20">Trusted and used by over 3,400 companies</h5>
-                        </div>
-                    </div>
-                </div>
-
-                            
-                <div class="row">
-                    <div class="col text-center">	
-                        <div class="owl-carousel brands-carousel-6">
-
-                                            
-                        
-                            <div class="brand-logo">
-                                <a href="#"><img class="img-fluid light-theme-img" src="images/brand-1.png" alt="brand-logo" /></a>
-                                <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-1-white.png" alt="brand-logo" /></a>
-                            </div>
-
-                                                
-                        
-                            <div class="brand-logo">
-                                <a href="#"><img class="img-fluid light-theme-img" src="images/brand-2.png" alt="brand-logo" /></a>
-                                <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-3-white.png" alt="brand-logo" /></a>
-                            </div>
-
-                                                
-                        
-                            <div class="brand-logo">
-                                <a href="#"><img class="img-fluid light-theme-img" src="images/brand-4.png" alt="brand-logo" /></a>
-                                <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-4-white.png" alt="brand-logo" /></a>
-                            </div>
-
-                                                
-                        
-                            <div class="brand-logo">
-                                <a href="#"><img class="img-fluid light-theme-img" src="images/brand-5.png" alt="brand-logo" /></a>
-                                <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-5-white.png" alt="brand-logo" /></a>
-                            </div>
-
-                                                
-                        
-                            <div class="brand-logo">
-                                <a href="#"><img class="img-fluid light-theme-img" src="images/brand-6.png" alt="brand-logo" /></a>
-                                <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-6-white.png" alt="brand-logo" /></a>
-                            </div>
-
-                                                
-                        
-                            <div class="brand-logo">
-                                <a href="#"><img class="img-fluid light-theme-img" src="images/brand-7.png" alt="brand-logo" /></a>
-                                <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-7-white.png" alt="brand-logo" /></a>
-                            </div>
-
-
-                        
-                            <div class="brand-logo">
-                                <a href="#"><img class="img-fluid light-theme-img" src="images/brand-8.png" alt="brand-logo" /></a>
-                                <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-8-white.png" alt="brand-logo" /></a>
-                            </div>
-
-                                                        
-                        
-                            <div class="brand-logo">
-                                <a href="#"><img class="img-fluid light-theme-img" src="images/brand-9.png" alt="brand-logo" /></a>
-                                <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-9-white.png" alt="brand-logo" /></a>
-                            </div>
-
-
-                        </div>	
-                    </div>
-                </div> 
-
-
-            </div>
-            </div>	
-            <hr class="divider" />
-
-
-            <section id="team-1" class="pt-100 team-section">
-            <div class="container">
-
-
-            
-                <div class="row justify-content-center">	
-                    <div class="col-md-10 col-lg-9">
-                        <div class="section-title mb-80">
-
-                        
-                            <h2 class="s-50 w-700">All we do is dream and craft amazing products</h2>	
-
-                                
-                            <p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
-
-                        </div>	
-                    </div>
-                </div>
-
-                <div class="team-members-wrapper">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-                        <div class="col">
-                            <div class="team-member mb-50 wow fadeInUp">
-                                                        
-                                <div class="team-member-photo r-14">
-                                    <div class="hover-overlay"> 
-                                        <img class="img-fluid" src="images/team-1.jpg" alt="team-member-foto" />
-                                        <div class="item-overlay"></div>
-                                    </div>
-                                </div>	
-                                <div class="team-member-data">		
-                                    <h6 class="s-20 w-700 color--black">Jonathan Barnes</h6>
-                                    <p class="color--grey">Founder and CEO</p>
-                                </div>	
-                            
-                            </div>									
-                        </div>
-                        <div class="col">
-                            <div class="team-member mb-50 wow fadeInUp">
-                            
-                                <div class="team-member-photo r-14">
-                                    <div class="hover-overlay"> 
-                                        <img class="img-fluid" src="images/team-2.jpg" alt="team-member-foto" />
-                                        <div class="item-overlay"></div>
-                                    </div>
-                                </div>
-                                                
-                                <div class="team-member-data">													
-                                    <h6 class="s-20 w-700 color--black">Jaime Fletcher</h6>
-                                    <p class="color--grey">Software Engineer</p>
-                                </div>	
-
-                            </div>											
-                        </div>
-                        <div class="col">
-                            <div class="team-member mb-50 wow fadeInUp">
-
-                                <div class="team-member-photo r-14">
-                                    <div class="hover-overlay"> 
-                                        <img class="img-fluid" src="images/team-3.jpg" alt="team-member-foto" />
-                                        <div class="item-overlay"></div>
-                                    </div>
-                                </div>
-                                                        
-                                <div class="team-member-data">													
-                                    <h6 class="s-20 w-700 color--black">Les Bakker</h6>
-                                    <p class="color--grey">Software Engineer</p>
-                                </div>
-
-                            </div>	
-                        </div>
-                        <div class="col">
-                            <div class="team-member mb-50 wow fadeInUp">
-
-                                <div class="team-member-photo r-14">
-                                    <div class="hover-overlay"> 
-                                        <img class="img-fluid" src="images/team-4.jpg" alt="team-member-foto" />
-                                        <div class="item-overlay"></div>
-                                    </div>
-                                </div>
-                                                        
-                                <div class="team-member-data">													
-                                    <h6 class="s-20 w-700 color--black">Alyssa Garrison</h6>
-                                    <p class="color--grey">Web Development</p>
-                                </div>	
-
-                            </div>
-                        </div>	
-                        <div class="col">
-                            <div class="team-member mb-50 wow fadeInUp">
-                                                    
-                                <div class="team-member-photo r-14">
-                                    <div class="hover-overlay"> 
-                                        <img class="img-fluid" src="images/team-5.jpg" alt="team-member-foto" />
-                                        <div class="item-overlay"></div>
-                                    </div>
-                                </div>	
-                                <div class="team-member-data">	
-                                    <h6 class="s-20 w-700 color--black">Charlotte Johnson</h6>
-                                    <p class="color--grey">Content Manager</p>
-                                </div>	
-                            
-                            </div>									
-                        </div>	
-                        <div class="col">
-                            <div class="team-member mb-50 wow fadeInUp">
-                            
-                                <div class="team-member-photo r-14">
-                                    <div class="hover-overlay"> 
-                                        <img class="img-fluid" src="images/team-6.jpg" alt="team-member-foto" />
-                                        <div class="item-overlay"></div>
-                                    </div>
-                                </div>
-                                            
-                                <div class="team-member-data">												
-                                    <h6 class="s-20 w-700 color--black">Olivia Steiner</h6>
-                                    <p class="color--grey">Head of Marketing</p>
-                                </div>	
-
-                            </div>											
-                        </div>	
-                        <div class="col">
-                            <div class="team-member mb-50 wow fadeInUp">
-
-                                <div class="team-member-photo r-14">
-                                    <div class="hover-overlay"> 
-                                        <img class="img-fluid" src="images/team-7.jpg" alt="team-member-foto" />
-                                        <div class="item-overlay"></div>
-                                    </div>
-                                </div>
-                                                                                
-                                <div class="team-member-data">														
-                                    <h6 class="s-20 w-700 color--black">Charles Fairless</h6>
-                                    <p class="color--grey">Operations Manager</p>
-                                </div>
-
-                            </div>	
-                        </div>	
-                        <div class="col">
-                            <div class="team-member mb-50 wow fadeInUp">
-
-                                <div class="team-member-photo r-14">
-                                    <div class="hover-overlay"> 
-                                        <img class="img-fluid" src="images/team-13.jpg" alt="team-member-foto" />
-                                        <div class="item-overlay"></div>
-                                    </div>
-                                </div>
-                                                                
-                                <div class="team-member-data">	
-                                    <h6 class="s-20 w-700 color--black">Grow with Us!</h6>
-                                    <p class="color--grey"><a href="mailto:youremail@mail.com">hireme@domain.com</a></p>
-                                </div>	
-
-                            </div>
-                        </div>
-
-
-                    </div>  
-                </div>	
-
-
-
-            
-                <div class="row">
-                    <div class="col">
-                        <div class="more-btn text-center mt-20 wow fadeInUp">	
-                            <a href="careers.html" class="btn btn--tra-black hover--theme">Join our team</a>
-                        </div>	
-                    </div>
-                </div>
-
-
-            </div>	  
-            </section>
-
-
-
-
 
             <section class="pt-100 ws-wrapper content-section">
             <div class="container">
@@ -1111,98 +554,6 @@ const About = () => {
             </div>	 
             </section>
 
-
-
-            <div id="rating-1" class="pt-70 pb-100 rating-section">
-            <div class="container">
-
-                <div class="row justify-content-center">	
-                    <div class="col-md-10 col-lg-9">
-                        <div class="rating-title mb-40">
-                            <h5 class="s-18 color--grey w-500">Our clients love us as much as we love them</h5>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="rating-1-wrapper">
-                    <div class="row justify-content-md-center row-cols-1 row-cols-md-3">
-
-
-                        <div class="col">
-                            <div id="rb-1-1" class="rbox-1">
-
-
-                                <div class="rbox-1-img">
-                                    <a href="#"><img class="img-fluid light-theme-img" src="images/brand-21.png" alt="brand-logo" /></a>
-                                    <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-21-white.png" alt="brand-logo" /></a>
-                                </div>
-
-                                <div class="star-rating ico-10 bg--white-100 r-100 clearfix">
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star-half-empty mr-5"></span>	
-                                    &nbsp; 4.7/5
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <div class="col">
-                            <div id="rb-1-2" class="rbox-1">
-
-                                <div class="rbox-1-img">
-                                    <a href="#"><img class="img-fluid light-theme-img" src="images/brand-22.png" alt="brand-logo" /></a>
-                                    <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-22-white.png" alt="brand-logo" /></a>
-                                </div>
-
-                                <div class="star-rating ico-10 bg--white-100 r-100 clearfix">
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star mr-5"></span>	
-                                    &nbsp; 4.95/5
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div id="rb-1-3" class="rbox-1">
-
-                                <div class="rbox-1-img">
-                                    <a href="#"><img class="img-fluid light-theme-img" src="images/brand-23.png" alt="brand-logo" /></a>
-                                    <a href="#"><img class="img-fluid dark-theme-img" src="images/brand-23-white.png" alt="brand-logo" /></a>
-                                </div>
-
-                                <div class="star-rating ico-10 bg--white-100 r-100 clearfix">
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star"></span>
-                                    <span class="flaticon-star-1 mr-5"></span>	
-                                    &nbsp; 4.24/5
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </div> 
-                </div>
-
-                    
-            </div>
-            </div>
-
-
-
-
-
             <section class="bg--white-400 py-100 ct-03 content-section division">
             <div class="container">
                 <div class="row d-flex align-items-center">
@@ -1251,143 +602,7 @@ const About = () => {
             </section>	
 
 
-            <section id="blog-1" class="py-100 blog-section division">
-            <div class="container">
-
-
             
-                <div class="row justify-content-center">	
-                    <div class="col-md-10 col-lg-9">
-                        <div class="section-title mb-70">	
-
-                        
-                            <h2 class="s-50 w-700">Articles & Resources</h2>	
-
-                                
-                            <p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
-                                
-                        </div>	
-                    </div>
-                </div>
-
-
-                <div class="row">
-
-
-                    <div class="col-md-6 col-lg-4">
-                        <div id="bp-1-1" class="blog-post wow fadeInUp">	
-
-                            
-                            <div class="blog-post-img mb-35">
-                                <img class="img-fluid r-16" src="images/post-8-img.jpg" alt="blog-post-image" />
-                            </div>	
-
-                            <div class="blog-post-txt">
-
-                                
-                                <span class="post-tag color--pink-400">Product News</span>	
-
-                            
-                                <h6 class="s-20 w-700">
-                                    <a href="single-post.html">Aliqum mullam porta blandit: tempor sapien and gravida</a>
-                                </h6>
-
-
-                                <p>Egestas luctus vitae augue and ipsum ultrice quisque in cursus lacus feugiat congue 
-                                    diam ultrice laoreet sagittis
-                                </p>
-
-                                
-                                <div class="blog-post-meta mt-20">
-                                    <ul class="post-meta-list ico-10">
-                                        <li><p class="p-sm w-500">By Helen J.</p></li>
-                                        <li class="meta-list-divider"><p><span class="flaticon-minus"></span></p></li>
-                                        <li><p class="p-sm">Apr 28, 2023</p></li>
-                                    </ul>
-                                </div>
-
-                            </div>	
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div id="bp-1-2" class="blog-post wow fadeInUp">	
-
-                            
-                            <div class="blog-post-img mb-35">
-                                <img class="img-fluid r-16" src="images/post-2-img.jpg" alt="blog-post-image" />
-                            </div>	
-
-                            <div class="blog-post-txt">
-
-                                
-                                <span class="post-tag color--green-400">Community</span>	
-
-                            
-                                <h6 class="s-20 w-700">
-                                    <a href="single-post.html">Porttitor cursus fusce egestas CEO cursus at magna sapien 
-                                        suscipit and egestas ipsum
-                                    </a>
-                                </h6>
-
-
-                                <p>Aliqum mullam ipsum vitae and blandit vitae tempor sapien and donec lipsum</p>
-
-                                
-                                <div class="blog-post-meta mt-20">
-                                    <ul class="post-meta-list ico-10">
-                                        <li><p class="p-sm w-500">By Martex Team</p></li>
-                                        <li class="meta-list-divider"><p><span class="flaticon-minus"></span></p></li>
-                                        <li><p class="p-sm">Apr 14, 2023</p></li>
-                                    </ul>
-                                </div>
-
-                            </div>	
-                            
-                        </div>
-                    </div>	
-
-                    <div class="col-md-12 col-lg-4">
-                        <div id="bp-1-3" class="blog-post wow fadeInUp">	
-
-                            
-                            <div class="blog-post-img mb-35">
-                                <img class="img-fluid r-16" src="images/post-5-img.jpg" alt="blog-post-image" />
-                            </div>	
-
-                            <div class="blog-post-txt">
-
-                                
-                                <span class="post-tag color--purple-400">Freelancer Tips</span>	
-
-                            
-                                <h6 class="s-20 w-700">
-                                    <a href="single-post.html">Cubilia laoreet augue egestas and Martex magna impedit</a>
-                                </h6>
-
-
-                                <p>Luctus vitae egestas augue and ipsum ultrice quisque in cursus lacus feugiat egets 
-                                    congue ultrice sagittis laoreet 
-                                </p>
-
-                                <div class="blog-post-meta mt-20">
-                                    <ul class="post-meta-list ico-10">
-                                        <li><p class="p-sm w-500">By Miranda Green</p></li>
-                                        <li class="meta-list-divider"><p><span class="flaticon-minus"></span></p></li>
-                                        <li><p class="p-sm">Mar 27, 2023</p></li>
-                                    </ul>
-                                </div>
-
-                            </div>	
-                            
-                        </div>
-                    </div>	
-
-
-                </div>   
-            </div>   
-            </section>	
 
             <hr class="divider" />
 
@@ -1440,20 +655,18 @@ const About = () => {
 
 						<div class="col-xl-3">
 							<div class="footer-info">
-								<img class="footer-logo" src="images/logo-pink.png" alt="footer-logo" />
-								<img class="footer-logo-dark" src="images/logo-pink-white.png" alt="footer-logo" />
+								<span style={{ color: 'black', fontWeight: 'bold', fontSize: 35 }}>NE&P</span>
 							</div>	
 						</div>	
 
 						<div class="col-sm-4 col-lg-3 col-xl-2">
 							<div class="footer-links fl-1">
 				
-								<h6 class="s-17 w-700">Company</h6>
+								<h6 class="s-17 w-700">Our Company</h6>
 								<ul class="foo-links clearfix">
-									<li><p><a href="about.html">About Us</a></p></li>
-									<li><p><a href="blog-listing.html">Our Blog</a></p></li>						
-									<li><p><a href="testimonials.html">Customers</a></p></li>	
-									<li><p><a href="#">Community</a></p></li>			
+									<li><p><Link to="#">About Us</Link></p></li>
+									<li><p><Link to="#">Our Blog</Link></p></li>
+									<li><p><Link to="#">Community</Link></p></li>			
 								</ul>
 
 							</div>
@@ -1466,10 +679,8 @@ const About = () => {
 								<h6 class="s-17 w-700">Product</h6>
 
 								<ul class="foo-links clearfix">
-									<li><p><a href="features.html">Integration</a></p></li>
-									<li><p><a href="download.html">What's New</a></p></li>	
-									<li><p><a href="pricing-1.html">Pricing</a></p></li>	
-									<li><p><a href="help-center.html">Help Center</a></p></li>			
+									<li><p><Link to="#">Integration</Link></p></li>
+									<li><p><Link to="#">What's New</Link></p></li>			
 								</ul>
 
 							</div>	
@@ -1483,10 +694,9 @@ const About = () => {
 
 								
 								<ul class="foo-links clearfix">
-									<li><p><a href="terms.html">Terms of Use</a></p></li>										
-									<li><p><a href="privacy.html">Privacy Policy</a></p></li>
-									<li><p><a href="cookies.html">Cookie Policy</a></p></li>
-									<li><p><a href="#">Site Map</a></p></li>
+									<li><p><Link to="#">Terms of Use</Link></p></li>										
+									<li><p><Link to="#">Privacy Policy</Link></p></li>
+									<li><p><Link to="#">Cookie Policy</Link></p></li>
 								</ul>
 
 							</div>	
@@ -1496,7 +706,7 @@ const About = () => {
 						<div class="col-sm-10 col-md-8 col-lg-4 col-xl-3">
 							<div class="footer-form">
 
-								<h6 class="s-17 w-700">Follow the Best</h6>
+								<h6 class="s-17 w-700">SUBSCRIBNE TO OUR NEWSLETTER</h6>
 
 								<form class="newsletter-form">
 											
@@ -1504,7 +714,7 @@ const About = () => {
 										<input type="email" class="form-control" placeholder="Email Address" required id="s-email" />								
 										<span class="input-group-btn ico-15">
 											<button type="submit" class="btn color--theme">
-												<span class="flaticon-right-arrow-1"></span>
+												<span class="bx bx-arrow-right"></span>
 											</button>
 										</span>
 									</div>
@@ -1528,16 +738,16 @@ const About = () => {
 
 							<div class="col">
 								<div class="footer-copyright">
-									<p class="p-sm">&copy; 2023 Martex. <span>All Rights Reserved</span></p>
+									<p class="p-sm">&copy; 2024 NE&P. <span>All Rights Reserved</span></p>
 								</div>
 							</div>
 
 							<div class="col">
 								<ul class="bottom-footer-socials ico-20 text-end">
-									<li><a href="#"><span class="flaticon-facebook"></span></a></li>
-									<li><a href="#"><span class="flaticon-twitter"></span></a></li>
-									<li><a href="#"><span class="flaticon-instagram"></span></a></li>
-									<li><a href="#"><span class="flaticon-youtube"></span></a></li>
+									<li><a href="#"><span class="bx bxl-facebook"></span></a></li>
+									<li><a href="#"><span class="bx bxl-twitter"></span></a></li>
+									<li><a href="#"><span class="bx bxl-instagram"></span></a></li>
+									<li><a href="#"><span class="bx bxl-youtube"></span></a></li>
 								</ul>
 							</div>
 
@@ -1547,7 +757,7 @@ const About = () => {
 
 
 				</div>
-			</footer>   
+			</footer> 
         
         
         </>

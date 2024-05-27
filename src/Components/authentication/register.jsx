@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return ( 
@@ -58,8 +59,8 @@ const Login = () => {
 												<div class="col-md-12">
 													<div class="form-data">
 														<span>By clicking “Create Account”, you agree to our 
-															<a href="terms.html">Terms</a> and that you have read our
-															<a href="privacy.html"> Privacy Policy</a>
+														<Link to="#">Terms</Link> and that you have read our
+															<Link to="#"> Privacy Policy</Link>
 														</span>
 													</div>
 												</div>
@@ -72,7 +73,7 @@ const Login = () => {
 												
 												<div class="col-md-12">
 													<p class="create-account text-center">
-														Already have an account? <a href="login-2.html" class="color--theme">Log in</a>
+														Already have an account? <Link to="/login" class="color--theme">Log in</Link>
 													</p>
 												</div> 
 
@@ -94,13 +95,12 @@ const Login = () => {
 											<h2 class="s-48 w-700">an account</h2>
 
 											
-											<p class="p-md mt-25">Integer congue sagittis and velna augue egestas magna 
-											   suscipit purus aliquam
+											<p class="p-md mt-25">Nexus Engineering & Planning is a premier consultancy firm dedicated to delivering innovative engineering and planning solutions that drive sustainable development and urban transformation.
 											</p>
 
 											
 											<div class="register-page-copyright">
-												<p class="p-sm">&copy; 2023 Martex. <span>All Rights Reserved</span></p>
+												<p class="p-sm">&copy; 2024 NE&P. <span>All Rights Reserved</span></p>
 											</div>
 
 										</div>

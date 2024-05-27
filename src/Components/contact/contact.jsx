@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     return ( 
@@ -18,60 +19,42 @@ const Contact = () => {
 
 
 	    					<div class="desktoplogo">
-	    						<a href="demo-1.html" class="logo-black">
-	    							<img class="light-theme-img" src="images/logo-blue.png" alt="logo" />
-	    							<img class="dark-theme-img" src="images/logo-blue-white.png" alt="logo" />
-	    						</a>
+								<Link to="/" class="logo-black">
+									<span style={{ color: 'black', fontWeight: 'bold', fontSize: 35 }}>NE&P</span>
+								</Link>
 	    					</div>
 	    					
 
 	    					
 	    					<div class="desktoplogo">
-	    						<a href="demo-1.html" class="logo-white"><img src="images/logo-blue-white.png" alt="logo" /></a>
+								<Link to="/" class="logo-white">
+									<span style={{ color: 'black', fontWeight: 'bold', fontSize: 35 }}>NE&P</span>
+								</Link>
 	    					</div>
 
 
 	    					
-	      					<nav class="wsmenu clearfix">
+							<nav class="wsmenu clearfix">
 	        					<ul class="wsmenu-list nav-theme">
 
-
-	        						
-						          	<li aria-haspopup="true"><a href="#" class="h-link">Company <span class="wsarrow"></span></a>
+						          	<li aria-haspopup="true"><Link to="/about" class="h-link">About</Link></li>
+							    	<li class="nl-simple" aria-haspopup="true"><Link to="/contact" class="h-link">Contact Us</Link></li>
+									<li aria-haspopup="true"><a href="#" class="h-link">Data & Dashboards <span class="wsarrow"></span></a>
 	            						<ul class="sub-menu">
-	            							<li aria-haspopup="true"><a href="about.html">About Us</a></li>
-	            							<li aria-haspopup="true"><a href="careers.html">Careers <span class="sm-info">4</span></a></li>
-	            							<li aria-haspopup="true"><a href="reviews.html">Customers</a></li>
-	            							<li aria-haspopup="true"><a href="blog-listing.html">Our Blog</a></li>
-	            							<li aria-haspopup="true"><a href="contacts.html">Contact Us</a></li>	
+	            							<li aria-haspopup="true"><Link to="/">Free Dashboard</Link></li>
+	            							<li aria-haspopup="true"><Link to="/login">User Sign in</Link></li>
 						           		</ul>
 								    </li>
 
-								    
-							    	<li class="nl-simple" aria-haspopup="true"><a href="projects.html" class="h-link">Case Studies</a></li>
+							    	<li class="nl-simple" aria-haspopup="true"><Link to="/faq" class="h-link">FAQs</Link></li>
 
-
-								    
-							    	<li class="nl-simple" aria-haspopup="true"><a href="pricing-1.html" class="h-link">Pricing</a></li>
-
-
-								    
-							    	<li class="nl-simple" aria-haspopup="true"><a href="faqs.html" class="h-link">FAQs</a></li>
-
-
-							    	<li class="nl-simple reg-fst-link mobile-last-link" aria-haspopup="true">
-							    		<a href="login-2.html" class="h-link">Sign In</a>
-							    	</li>
-
-
-								    
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="signup-2.html" class="btn r-04 btn--theme hover--theme last-link">Get Started</a>
+										<Link to="/register"  class="btn r-04 btn--theme hover--tra-white last-link">Get Started</Link>
 								    </li> 
 
 
 	        					</ul>
-	        				</nav>	
+	        				</nav>
 
 
 	    				</div>
@@ -143,7 +126,7 @@ const Contact = () => {
 										<p class="p-sm">We are committed to your privacy. Martex uses the information you 
 										   provide us to contact you about our relevant content, products, and services. 
 										   You may unsubscribe from these communications at any time. For more information, 
-										   check out our <a href="privacy.html">Privacy Policy</a>.
+										   check out our Privacy Policy.
 										</p>
 									</div>
 																	
@@ -209,20 +192,18 @@ const Contact = () => {
 
 						<div class="col-xl-3">
 							<div class="footer-info">
-								<img class="footer-logo" src="images/logo-pink.png" alt="footer-logo" />
-								<img class="footer-logo-dark" src="images/logo-pink-white.png" alt="footer-logo" />
+								<span style={{ color: 'black', fontWeight: 'bold', fontSize: 35 }}>NE&P</span>
 							</div>	
 						</div>	
 
 						<div class="col-sm-4 col-lg-3 col-xl-2">
 							<div class="footer-links fl-1">
 				
-								<h6 class="s-17 w-700">Company</h6>
+								<h6 class="s-17 w-700">Our Company</h6>
 								<ul class="foo-links clearfix">
-									<li><p><a href="about.html">About Us</a></p></li>
-									<li><p><a href="blog-listing.html">Our Blog</a></p></li>						
-									<li><p><a href="testimonials.html">Customers</a></p></li>	
-									<li><p><a href="#">Community</a></p></li>			
+									<li><p><Link to="#">About Us</Link></p></li>
+									<li><p><Link to="#">Our Blog</Link></p></li>
+									<li><p><Link to="#">Community</Link></p></li>			
 								</ul>
 
 							</div>
@@ -235,10 +216,8 @@ const Contact = () => {
 								<h6 class="s-17 w-700">Product</h6>
 
 								<ul class="foo-links clearfix">
-									<li><p><a href="features.html">Integration</a></p></li>
-									<li><p><a href="download.html">What's New</a></p></li>	
-									<li><p><a href="pricing-1.html">Pricing</a></p></li>	
-									<li><p><a href="help-center.html">Help Center</a></p></li>			
+									<li><p><Link to="#">Integration</Link></p></li>
+									<li><p><Link to="#">What's New</Link></p></li>			
 								</ul>
 
 							</div>	
@@ -252,10 +231,9 @@ const Contact = () => {
 
 								
 								<ul class="foo-links clearfix">
-									<li><p><a href="terms.html">Terms of Use</a></p></li>										
-									<li><p><a href="privacy.html">Privacy Policy</a></p></li>
-									<li><p><a href="cookies.html">Cookie Policy</a></p></li>
-									<li><p><a href="#">Site Map</a></p></li>
+									<li><p><Link to="#">Terms of Use</Link></p></li>										
+									<li><p><Link to="#">Privacy Policy</Link></p></li>
+									<li><p><Link to="#">Cookie Policy</Link></p></li>
 								</ul>
 
 							</div>	
@@ -265,7 +243,7 @@ const Contact = () => {
 						<div class="col-sm-10 col-md-8 col-lg-4 col-xl-3">
 							<div class="footer-form">
 
-								<h6 class="s-17 w-700">Follow the Best</h6>
+								<h6 class="s-17 w-700">SUBSCRIBNE TO OUR NEWSLETTER</h6>
 
 								<form class="newsletter-form">
 											
@@ -273,7 +251,7 @@ const Contact = () => {
 										<input type="email" class="form-control" placeholder="Email Address" required id="s-email" />								
 										<span class="input-group-btn ico-15">
 											<button type="submit" class="btn color--theme">
-												<span class="flaticon-right-arrow-1"></span>
+												<span class="bx bx-arrow-right"></span>
 											</button>
 										</span>
 									</div>
@@ -297,16 +275,16 @@ const Contact = () => {
 
 							<div class="col">
 								<div class="footer-copyright">
-									<p class="p-sm">&copy; 2023 Martex. <span>All Rights Reserved</span></p>
+									<p class="p-sm">&copy; 2024 NE&P. <span>All Rights Reserved</span></p>
 								</div>
 							</div>
 
 							<div class="col">
 								<ul class="bottom-footer-socials ico-20 text-end">
-									<li><a href="#"><span class="flaticon-facebook"></span></a></li>
-									<li><a href="#"><span class="flaticon-twitter"></span></a></li>
-									<li><a href="#"><span class="flaticon-instagram"></span></a></li>
-									<li><a href="#"><span class="flaticon-youtube"></span></a></li>
+									<li><a href="#"><span class="bx bxl-facebook"></span></a></li>
+									<li><a href="#"><span class="bx bxl-twitter"></span></a></li>
+									<li><a href="#"><span class="bx bxl-instagram"></span></a></li>
+									<li><a href="#"><span class="bx bxl-youtube"></span></a></li>
 								</ul>
 							</div>
 
@@ -316,7 +294,7 @@ const Contact = () => {
 
 
 				</div>
-			</footer> 
+			</footer>
         </>
      );
 }
